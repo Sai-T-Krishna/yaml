@@ -36,3 +36,10 @@ logging:
       filename: /var/log/myapp.log
     - type: console
 ...
+---
+person:
+  name: John
+  age: 25
+  Country: USA
+
+...

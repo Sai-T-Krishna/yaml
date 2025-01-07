@@ -29,10 +29,12 @@ schedules:
          <<: *working
          sleeptime: 12:00 AM
          netflix: true
+         prime: true
     weekends:
       - saturday:
           <<: *holiday
           netflix: true
+          hotstar: true
       - sunday:
           <<: *holiday
           sleeptime: 10:00 PM
